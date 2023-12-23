@@ -1,0 +1,37 @@
+{
+  "name": "racket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fyn": "./bin/fyn.js"
+  },
+  "scripts": {
+    "build": "npx tsc --declaration && npm link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "colors": "^1.4.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquire": "^0.4.8",
+    "inquirer": "^9.2.12",
+    "nodemon": "^3.0.2",
+    "ora": "^7.0.1",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "weather-js": "^2.0.0",
+    "weathers-watch": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.5"
+  }
+}
